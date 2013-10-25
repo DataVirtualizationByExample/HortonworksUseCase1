@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vdb name="hadoop" version="1">
+  <description>Shows how to query Hadoop using Hive</description>
+  <property name="UseConnectorMetadata" value="cached"/>
+  <model name="Hadoop">
+    <property name="importer.trimColumnNames" value="true"/>
+    <source name="Hive conector" translator-name="hive-override" connection-jndi-name="java:/hive-datasource"/>
+  </model>
+  <translator type="hive" name="hive-override">
+    <property name="supportsNativeQueries" value="true"/>
+  </translator>
+</vdb>

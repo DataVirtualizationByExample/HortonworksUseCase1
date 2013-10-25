@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://www.metamatrix.com/metamodels/Diagram" xmlns:mmcore="http://www.metamatrix.com/metamodels/Core" xmlns:relational="http://www.metamatrix.com/metamodels/Relational">
+  <mmcore:ModelAnnotation xmi:uuid="mmuuid:aaa0485c-05cc-4152-a552-71b70892bee3" primaryMetamodelUri="http://www.metamatrix.com/metamodels/Relational" modelType="PHYSICAL" ProducerName="Teiid Designer" ProducerVersion="8.2.0.Final-v20130817-0508-B2400">
+    <modelImports xmi:uuid="mmuuid:fa41f249-754d-4d0d-bcc2-e128ce6ef02b" name="SimpleDatatypes-instance" modelLocation="http://www.metamatrix.com/metamodels/SimpleDatatypes-instance" modelType="TYPE" primaryMetamodelUri="http://www.eclipse.org/xsd/2002/XSD"/>
+    <modelImports xmi:uuid="mmuuid:005eb65a-bc6f-4e90-80c0-66461c7c8bf5" name="XMLSchema" modelLocation="http://www.w3.org/2001/XMLSchema" modelType="TYPE" primaryMetamodelUri="http://www.eclipse.org/xsd/2002/XSD"/>
+  </mmcore:ModelAnnotation>
+  <relational:Procedure xmi:uuid="mmuuid:02e6c201-4a51-4200-983d-8258bc2afdfb" name="getFiles">
+    <parameters xmi:uuid="mmuuid:e0f1984f-0ce2-4cff-9e4a-c02c4087e1f4" name="pathAndExt">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </parameters>
+    <result xmi:uuid="mmuuid:f643b4ca-05fa-43e5-84ce-d93075b9188a" name="Result">
+      <columns xmi:uuid="mmuuid:3fab7f36-82bb-49e1-8a33-f7bd2c3058eb" name="file">
+        <type href="http://www.metamatrix.com/metamodels/SimpleDatatypes-instance#blob"/>
+      </columns>
+      <columns xmi:uuid="mmuuid:fd27e40c-f4dd-4b64-b418-f5e109e82dd9" name="filePath">
+        <type href="http://www.w3.org/2001/XMLSchema#string"/>
+      </columns>
+    </result>
+  </relational:Procedure>
+  <relational:Procedure xmi:uuid="mmuuid:26de123e-2f83-4bc5-8594-557f58849585" name="getTextFiles">
+    <parameters xmi:uuid="mmuuid:982cd91b-ffed-4219-a0c2-e6d4e3461145" name="pathAndExt">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </parameters>
+    <result xmi:uuid="mmuuid:dccb903e-8a32-4287-b4c0-9796c5fcae42" name="Result">
+      <columns xmi:uuid="mmuuid:189c29c6-e6ba-4ad3-97fd-649811eb9004" name="file">
+        <type href="http://www.metamatrix.com/metamodels/SimpleDatatypes-instance#clob"/>
+      </columns>
+      <columns xmi:uuid="mmuuid:af8af297-8764-47dc-9ae7-589b36de661c" name="filePath">
+        <type href="http://www.w3.org/2001/XMLSchema#string"/>
+      </columns>
+    </result>
+  </relational:Procedure>
+  <relational:Procedure xmi:uuid="mmuuid:fd8fa31e-041e-4f03-9fbe-aebea8ccc38f" name="saveFile">
+    <parameters xmi:uuid="mmuuid:99ecdd64-57aa-46fd-93e4-512b91341882" name="filePath">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </parameters>
+    <parameters xmi:uuid="mmuuid:d84e9939-f283-4778-ab19-ad1782535a9b" name="value">
+      <type href="http://www.metamatrix.com/metamodels/SimpleDatatypes-instance#object"/>
+    </parameters>
+  </relational:Procedure>
+  <mmcore:AnnotationContainer xmi:uuid="mmuuid:b9629e6a-def2-4149-aff1-fa509dd709b5"/>
+  <diagram:DiagramContainer xmi:uuid="mmuuid:3c077dfa-bd4f-42a3-a2eb-4d4fcb4c40ae"/>
+</xmi:XMI>

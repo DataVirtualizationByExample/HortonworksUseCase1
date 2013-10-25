@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+module-start-timeout=300000
+runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<runtimes>\n  <runtime PROPERTY_EXEC_ENVIRONMENT\="JavaSE-1.6" id\="JBoss EAP 6.1 Runtime" location\="/home/kpeeples/mystuff/hadoopworld/jboss-eap-6.1" name\="JBoss EAP 6.1 Runtime" org.jboss.ide.eclipse.as.core.runtime.configurationName\="" org.jboss.ide.eclipse.as.core.server.internal.v7.CONFIG_FILE\="standalone.xml" runtime-type-id\="org.jboss.ide.eclipse.as.runtime.eap.61" timestamp\="0"/>\n</runtimes>\n

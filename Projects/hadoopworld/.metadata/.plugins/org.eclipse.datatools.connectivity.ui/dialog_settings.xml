@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="Alt Drivers Definitions Driver_Dialog_Root">
+		<item value="500" key="Dialog_Size_Height"/>
+		<item value="649" key="Dialog_Size_Width"/>
+	</section>
+	<section name="Connectivity_Property_Dialog_Root">
+		<item value="625" key="Dialog_Size_Height"/>
+		<item value="630" key="Dialog_Size_Width"/>
+	</section>
+</section>

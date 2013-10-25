@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+org.eclipse.datatools.sqltools.result.ResultsFilterDialog.unknownProfile=true
+org.eclipse.datatools.sqltools.result.preferences.resultsetviewer.viewername=Teiid Result Set Viewer
