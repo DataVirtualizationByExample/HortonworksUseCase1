@@ -25,7 +25,7 @@ Demonstration Steps -
 1. Show the system requirements above.  The installation steps will be at a later time.  
 2. Start HDP2, DV, JBDS, Squirrel  
 3. Show data through Browser through Hive UI and Squirrel  
-3. Show JBDS Models, Views and Virtual Database and preview data  
-4. Show Excel using ODBC, both Hive and DV  
-5. Show DV Dashboard  
-6. Summary - Mashup data from multiple source used by multiple tools to analyze data  
+4. Show JBDS Models, Views and Virtual Database and preview data  
+5. Show Excel using ODBC, both Hive and DV  
+6. Show DV Dashboard  
+7. Summary - Mashup data from multiple source used by multiple tools to analyze data  
