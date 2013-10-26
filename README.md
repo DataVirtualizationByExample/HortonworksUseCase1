@@ -1,4 +1,4 @@
-Data Virtualization and Business Intelligence
+Red Hat Solutions for Real-World Big Data
 =============================================
 The objective of this demo is to combine twitter sentiment data from Hadoop with relational data on traditional data stores   
 using Red Hat JBoss Data Virtualization.  
