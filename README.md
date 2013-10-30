@@ -3,6 +3,8 @@ Red Hat Solutions for Real-World Big Data
 The objective of this demo is to combine twitter sentiment data from Hadoop with relational data on traditional data stores   
 using Red Hat JBoss Data Virtualization.  
 
+Hadoop World ended 10/30 so will be updating the code on 10/31 for the demo used.  
+
 Demonstration System Requirements  
 -JDK  
 Oracle JDK 1.6, 1.7 or OpenJDK 1.6 or 1.7  
