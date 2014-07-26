@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<xpaths>
-  <category name="Ports">
-    <query attribute="port" dir="" filePattern="standalone/configuration/${jboss_config_file}" name="JBoss Web" xpathPattern="//*[@name=&quot;standard-sockets&quot;]/*[@name=&quot;http&quot;]"/>
-    <query attribute="port" dir="" filePattern="standalone/configuration/${jboss_config_file}" name="JBoss Management" xpathPattern="//*[local-name()=&quot;socket-binding-group&quot;]/*[local-name()=&quot;socket-binding&quot;][@name=&quot;management-native&quot;]"/>
-    <query attribute="port-offset" dir="" filePattern="standalone/configuration/${jboss_config_file}" name="Port Offset" xpathPattern="//*[local-name()=&quot;socket-binding-group&quot;]"/>
-  </category>
-</xpaths>

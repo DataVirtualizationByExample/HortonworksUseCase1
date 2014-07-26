@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<servers>
-  <server default="true" host="localhost" parentServerId="JBoss EAP 6.1 Runtime Server1382550279407" version="8.4.1-redhat-2">
-    <admin port="9999" secure="false" user="admin"/>
-    <jdbc jdbcport="31000" jdbcsecure="false" jdbcuser="user"/>
-  </server>
-</servers>
